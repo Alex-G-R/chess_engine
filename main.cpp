@@ -158,6 +158,13 @@ int main()
             {
                 window.close();
             }
+            else if(event.type = sf::Event::MouseButtonPressed)
+            {
+                if(event.mouseButton.button == sf::Mouse::Left)
+                {
+
+                }
+            }
         }
 
         window.clear();
